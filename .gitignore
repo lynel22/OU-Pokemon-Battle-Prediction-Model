@@ -1,0 +1,34 @@
+# --- Entorno Virtual ---
+.venv/
+venv/
+env/
+bin/
+lib/
+include/
+
+# --- Datos Pesados (Raw Data) ---
+# Ignoramos la carpeta completa y cualquier archivo comprimido
+raw_data/
+*.tar.gz
+*.zip
+*.7z
+*.rar
+
+# --- Python & Cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# --- IDEs y Sistema ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Variables de entorno (Seguridad) ---
+.env
