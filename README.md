@@ -15,7 +15,7 @@ This repository uses **Git LFS (Large File Storage)** to manage the large datase
    ```
 3. **Clone the repository**:
     ```bash
-    git clone [https://github.com/lynel22/OU-Pokemon-Battle-Prediction-Model.git](https://github.com/lynel22/OU-Pokemon-Battle-Prediction-Model.git)
+    git clone [url]
     cd OU-Pokemon-Battle-Prediction-Model
     ```
 4. **Pull the data (if the CSV files are just pointers)**:
