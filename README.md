@@ -3,7 +3,7 @@ This project implements a Machine Learning model to predict the outcome of Poké
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Prerequisites (Git LFS)
 This repository uses **Git LFS (Large File Storage)** to manage the large dataset CSV files. To ensure the datasets are downloaded correctly, please follow these steps:
@@ -22,12 +22,10 @@ This repository uses **Git LFS (Large File Storage)** to manage the large datase
     ```bash
     git lfs pull
     ```
+
 ### 2. Install Dependencies
 Once the virtual environment is active, install the required libraries using pip:
-    ```bash
-    # Create the virtual environment
-    python -m venv .venv
 
-    # Activate the environment
-    .venv\Scripts\activate
-    ```
+ ```bash
+    pip install -r requirements.txt
+```
