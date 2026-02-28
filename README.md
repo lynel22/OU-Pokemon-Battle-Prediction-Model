@@ -26,10 +26,7 @@ This repository uses **Git LFS (Large File Storage)** to manage the large datase
 
 ### 2. Install Dependencies
 Once the virtual environment is active, install the required libraries using pip:
-    ```bash
-    # Create the virtual environment
-    python -m venv .venv
 
-    # Activate the environment
-    .venv\Scripts\activate
-    ```
+ ```bash
+    pip install -r requirements.txt
+```
