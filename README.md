@@ -4,6 +4,7 @@ This project implements a Machine Learning model to predict the outcome of Poké
 ---
 
 ## Getting Started
+## Getting Started
 
 ### 1. Prerequisites (Git LFS)
 This repository uses **Git LFS (Large File Storage)** to manage the large dataset CSV files. To ensure the datasets are downloaded correctly, please follow these steps:
@@ -15,7 +16,7 @@ This repository uses **Git LFS (Large File Storage)** to manage the large datase
    ```
 3. **Clone the repository**:
     ```bash
-    git clone [https://github.com/lynel22/OU-Pokemon-Battle-Prediction-Model.git](https://github.com/lynel22/OU-Pokemon-Battle-Prediction-Model.git)
+    git clone [url]
     cd OU-Pokemon-Battle-Prediction-Model
     ```
 4. **Pull the data (if the CSV files are just pointers)**:
@@ -25,7 +26,10 @@ This repository uses **Git LFS (Large File Storage)** to manage the large datase
 
 ### 2. Install Dependencies
 Once the virtual environment is active, install the required libraries using pip:
+    ```bash
+    # Create the virtual environment
+    python -m venv .venv
 
- ```bash
-    pip install -r requirements.txt
-```
+    # Activate the environment
+    .venv\Scripts\activate
+    ```
