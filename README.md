@@ -4,7 +4,6 @@ This project implements a Machine Learning model to predict the outcome of Poké
 ---
 
 ## Getting Started
-## Getting Started
 
 ### 1. Prerequisites (Git LFS)
 This repository uses **Git LFS (Large File Storage)** to manage the large dataset CSV files. To ensure the datasets are downloaded correctly, please follow these steps:
