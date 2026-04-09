@@ -1,0 +1,21 @@
+{
+    "model": "LightGBM",
+    "representation": "team_differential",
+    "dataset": "final",
+    "params": {
+        "n_estimators": 879,
+        "learning_rate": 0.03925175981066742,
+        "num_leaves": 220,
+        "max_depth": 29,
+        "min_child_samples": 15,
+        "subsample": 0.7879109959877711,
+        "colsample_bytree": 0.8332301475770066
+    },
+    "metric": "roc_auc",
+    "best_threshold": 0.49797979797979797,
+    "threshold_metric": "f1_macro",
+    "threshold_range": [
+        0.3,
+        0.7
+    ]
+}
