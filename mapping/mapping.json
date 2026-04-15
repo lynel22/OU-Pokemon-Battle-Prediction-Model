@@ -1,79 +1,857 @@
-{"Arceus-Bug": {"target_name": "Arceus", "keep": true, "form": "Bug"},
- "Arceus-Dark": {"target_name": "Arceus", "keep": true, "form": "Dark"},
- "Arceus-Fairy": {"target_name": "Arceus", "keep": true, "form": "Fairy"},
- "Arceus-Fighting": {"target_name": "Arceus", "keep": true, "form": "Fighting"},
- "Arceus-Ice": {"target_name": "Arceus", "keep": true, "form": "Ice"},
- "Arceus-Poison": {"target_name": "Arceus", "keep": true, "form": "Poison"},
- "Arceus-Psychic": {"target_name": "Arceus", "keep": true, "form": "Psychic"},
- "Arceus-Water": {"target_name": "Arceus", "keep": true, "form": "Water"},
- "Basculegion-F": {"target_name": "Basculegion-F", "keep": true, "form": "F"},
- "Basculin": {"target_name": "BasculinRed-Striped", "keep": false, "form": ""},
- "Basculin-Blue-Striped": {"target_name": "BasculinBlue-Striped", "keep": false, "form": ""},
- "Basculin-White-Striped": {"target_name": "BasculinWhite-Striped", "keep": false, "form": ""},
- "Calyrex-Ice": {"target_name": "Calyrex", "keep": true, "form": "Ice Rider"},
- "Calyrex-Shadow": {"target_name": "Calyrex", "keep": true, "form": "Shadow Rider"},
- "Deoxys-Attack": {"target_name": "DeoxysAttackAttack", "keep": false, "form": "Attack"},
- "Deoxys-Defense": {"target_name": "DeoxysDefenseDefense", "keep": false, "form": "Defense"},
- "Deoxys-Speed": {"target_name": "DeoxysSpeedSpeed", "keep": false, "form": "Speed"},
- "Dialga-Origin": {"target_name": "DialgaOriginOrigin", "keep": false, "form": "Origin"},
- "Dudunsparce": {"target_name": "DudunsparceTwo-Segment", "keep": false, "form": ""},
- "Enamorus": {"target_name": "EnamorusIncarnateIncarnate", "keep": false, "form": "Incarnate Forme"},
- "Enamorus-Therian": {"target_name": "EnamorusTherianTherian", "keep": false, "form": "Therian Forme"},
- "Gimmighoul-Roaming":{"target_name": "GimmighoulRoaming", "keep": false, "form": "Roaming Form"},
- "Giratina": {"target_name": "GiratinaAlteredAltered", "keep": false, "form": "Altered Forme"},
- "Giratina-Origin": {"target_name": "GiratinaOriginOrigin", "keep": false, "form": "Origin Forme"},
- "Ho-Oh": {"target_name": "Ho-Oh", "keep": false, "form": ""},
- "Hoopa": {"target_name": "Hoopa", "keep": true, "form": "Hoopa Confined"},
- "Hoopa-Unbound": {"target_name": "Hoopa", "keep": true, "form": "Hoopa Unbound"},
- "Keldeo": {"target_name": "KeldeoOrdinary", "keep": false, "form": "Ordinary"},
- "Keldeo-Resolute": {"target_name": "KeldeoResolute", "keep": false, "form": "Resolute"},
- "Landorus": {"target_name": "LandorusIncarnateIncarnate", "keep": false, "form": "Incarnate Forme"},
- "Landorus-Therian": {"target_name": "LandorusTherianTherian", "keep": false, "form": "Therian Forme"},
- "Lycanroc": {"target_name": "LycanrocMidday", "keep": false, "form": "Midday Form"},
- "Lycanroc-Dusk": {"target_name": "LycanrocDusk", "keep": false, "form": "Dusk Form"},
- "Lycanroc-Midnight": {"target_name": "LycanrocMidnight", "keep": false, "form": "Midnight Form"},
- "Maushold-Four": {"target_name": "Maushold", "keep": false, "form": "Family of Four"},
- "Meloetta": {"target_name": "MeloettaAriaAria", "keep": false, "form": "Aria Forme"},
- "Meowstic-F": {"target_name": "Meowstic", "keep": false, "form": "Female"},
- "Minior": {"target_name": "MiniorMeteor", "keep": false, "form": "Meteor Form"},
- "Necrozma-Dawn-Wings": {"target_name": "Necrozma", "keep": true, "form": "Dawn Wings Necrozma"},
- "Necrozma-Dusk-Mane": {"target_name": "Necrozma", "keep": true, "form": "Dusk Mane Necrozma"},
- "Oinkologne-F": {"target_name": "Oinkologne", "keep": false, "form": "Female"},
- "Oricorio": {"target_name": "Oricorio", "keep": true, "form": "Baile Style"},
- "Oricorio-Pa'u": {"target_name": "Oricorio", "keep": true, "form": "Pa'u Form"},
- "Oricorio-Pom-Pom": {"target_name": "Oricorio", "keep": true, "form": "Pom-Pom Form"},
- "Oricorio-Sensu": {"target_name": "Oricorio", "keep": true, "form": "Sensu Style"},
- "Palafin": {"target_name": "PalafinZero", "keep": true, "form": "Zero Form"},
- "Palkia-Origin": {"target_name": "PalkiaOriginOrigin", "keep": false, "form": "Origin Form"},
- "Pecharunt": {"target_name": "Pecha", "keep": true, "form": ""},
- "Pikachu-Alola": {"target_name": "Pikachu", "keep": false, "form": ""},
- "Pikachu-Belle": {"target_name": "Pikachu", "keep": false, "form": ""},
- "Pikachu-Hoenn": {"target_name": "Pikachu", "keep": false, "form": ""},
- "Pikachu-Kalos": {"target_name": "Pikachu", "keep": false, "form": ""},
- "Pikachu-Original": {"target_name": "Pikachu", "keep": false, "form": ""},
- "Pikachu-Partner": {"target_name": "Pikachu", "keep": false, "form": "Partner Pikachu"},
- "Pikachu-Sinnoh": {"target_name": "Pikachu", "keep": false, "form": ""},
- "Pikachu-Unova": {"target_name": "Pikachu", "keep": false, "form": ""},
- "Pikachu-World": {"target_name": "Pikachu", "keep": false, "form": ""},
- "Poltchageist-Artisan": {"target_name": "Poltchageist", "keep": false, "form": ""},
- "Polteageist-Antique": {"target_name": "Poltchageist", "keep": false, "form": ""},
- "Shaymin": {"target_name": "ShayminLandLand", "keep": false, "form": "Land Forme"},
- "Shaymin-Sky": {"target_name": "Shaymin-SkySkySky", "keep": false, "form": "Sky Forme"},
- "Sinistcha-Masterpiece": {"target_name": "Sinistcha", "keep": false, "form": ""},
- "Sinistea-Antique": {"target_name": "Sinistcha", "keep": false, "form": ""},
- "Squawkabilly-Blue": {"target_name": "Squawkabilly", "keep": false, "form": "Blue Plumage"},
- "Squawkabilly-White": {"target_name": "Squawkabilly", "keep": false, "form": "White Plumage"},
- "Squawkabilly-Yellow": {"target_name": "Squawkabilly", "keep": false, "form": "Yellow Plumage"},
- "Tatsugiri": {"target_name": "TatsugiriCurly", "keep": false, "form": "Curly Form"},
- "Tauros-Paldea-Aqua": {"target_name": "Tauros", "keep": true, "form": "Aqua Form"},
- "Tauros-Paldea-Blaze": {"target_name": "Tauros", "keep": true, "form": "Blaze Form"},
- "Tauros-Paldea-Combat": {"target_name": "Tauros", "keep": true, "form": "Combat Form"},
- "Thundurus": {"target_name": "ThundurusIncarnateIncarnate", "keep": false, "form": "Incarnate Form"},
- "Thundurus-Therian": {"target_name": "ThundurusTherianTherian", "keep": false, "form": "Therian Form"},
- "Tornadus": {"target_name": "TornadusIncarnateIncarnate", "keep": false, "form": "Incarnate Form"},
- "Tornadus-Therian": {"target_name": "TornadusTherianTherian", "keep": false, "form": "Therian Form"},
- "Toxtricity": {"target_name": "ToxtricityAmped", "keep": false, "form": "Amped Form"},
- "Toxtricity-Low-Key": {"target_name": "ToxtricityLow Key", "keep": false, "form": "Low Key Form"},
- "Vivillon-Fancy": {"target_name": "Vivillon", "keep": false, "form": ""},
- "Vivillon-Pokeball": {"target_name": "Vivillon", "keep": false, "form": ""},
- "Zarude-Dada": {"target_name": "Zarude", "keep": false, "form": ""}}
+{
+  "Arceus-Bug": {
+    "target_name": "Arceus",
+    "keep": true,
+    "form": "Bug"
+  },
+  "Arceus-Dark": {
+    "target_name": "Arceus",
+    "keep": true,
+    "form": "Dark"
+  },
+  "Arceus-Fairy": {
+    "target_name": "Arceus",
+    "keep": true,
+    "form": "Fairy"
+  },
+  "Arceus-Fighting": {
+    "target_name": "Arceus",
+    "keep": true,
+    "form": "Fighting"
+  },
+  "Arceus-Ice": {
+    "target_name": "Arceus",
+    "keep": true,
+    "form": "Ice"
+  },
+  "Arceus-Poison": {
+    "target_name": "Arceus",
+    "keep": true,
+    "form": "Poison"
+  },
+  "Arceus-Psychic": {
+    "target_name": "Arceus",
+    "keep": true,
+    "form": "Psychic"
+  },
+  "Arceus-Water": {
+    "target_name": "Arceus",
+    "keep": true,
+    "form": "Water"
+  },
+  "Basculegion-F": {
+    "target_name": "Basculegion",
+    "keep": true,
+    "form": "Female"
+  },
+  "Basculegion": {
+    "target_name": "Basculegion",
+    "keep": true,
+    "form": "Male"
+  },
+  "Basculin": {
+    "target_name": "BasculinRed-Striped",
+    "keep": false,
+    "form": ""
+  },
+  "Basculin-Blue-Striped": {
+    "target_name": "BasculinBlue-Striped",
+    "keep": false,
+    "form": ""
+  },
+  "Basculin-White-Striped": {
+    "target_name": "BasculinWhite-Striped",
+    "keep": false,
+    "form": ""
+  },
+  "Calyrex-Ice": {
+    "target_name": "Calyrex",
+    "keep": true,
+    "form": "Ice Rider"
+  },
+  "Calyrex-Shadow": {
+    "target_name": "Calyrex",
+    "keep": true,
+    "form": "Shadow Rider"
+  },
+  "Deoxys-Attack": {
+    "target_name": "DeoxysAttackAttack",
+    "keep": false,
+    "form": "Attack"
+  },
+  "Deoxys-Defense": {
+    "target_name": "DeoxysDefenseDefense",
+    "keep": false,
+    "form": "Defense"
+  },
+  "Deoxys-Speed": {
+    "target_name": "DeoxysSpeedSpeed",
+    "keep": false,
+    "form": "Speed"
+  },
+  "Dialga-Origin": {
+    "target_name": "DialgaOriginOrigin",
+    "keep": false,
+    "form": "Origin"
+  },
+  "Dudunsparce": {
+    "target_name": "DudunsparceTwo-Segment",
+    "keep": false,
+    "form": ""
+  },
+  "Enamorus": {
+    "target_name": "EnamorusIncarnateIncarnate",
+    "keep": false,
+    "form": "Incarnate Forme"
+  },
+  "Enamorus-Therian": {
+    "target_name": "EnamorusTherianTherian",
+    "keep": false,
+    "form": "Therian Forme"
+  },
+  "Gimmighoul-Roaming": {
+    "target_name": "GimmighoulRoaming",
+    "keep": false,
+    "form": "Roaming Form"
+  },
+  "Giratina": {
+    "target_name": "GiratinaAlteredAltered",
+    "keep": false,
+    "form": "Altered Forme"
+  },
+  "Giratina-Origin": {
+    "target_name": "GiratinaOriginOrigin",
+    "keep": false,
+    "form": "Origin Forme"
+  },
+  "Ho-Oh": {
+    "target_name": "Ho-oh",
+    "keep": false,
+    "form": " "
+  },
+  "Hoopa": {
+    "target_name": "Hoopa",
+    "keep": true,
+    "form": "Hoopa Confined"
+  },
+  "Hoopa-Unbound": {
+    "target_name": "Hoopa",
+    "keep": true,
+    "form": "Hoopa Unbound"
+  },
+  "Keldeo": {
+    "target_name": "KeldeoOrdinary",
+    "keep": false,
+    "form": "Ordinary"
+  },
+  "Keldeo-Resolute": {
+    "target_name": "KeldeoResolute",
+    "keep": false,
+    "form": "Resolute"
+  },
+  "Landorus": {
+    "target_name": "LandorusIncarnateIncarnate",
+    "keep": false,
+    "form": "Incarnate Forme"
+  },
+  "Landorus-Therian": {
+    "target_name": "LandorusTherianTherian",
+    "keep": false,
+    "form": "Therian Forme"
+  },
+  "Lycanroc": {
+    "target_name": "LycanrocMidday",
+    "keep": false,
+    "form": "Midday Form"
+  },
+  "Lycanroc-Dusk": {
+    "target_name": "LycanrocDusk",
+    "keep": false,
+    "form": "Dusk Form"
+  },
+  "Lycanroc-Midnight": {
+    "target_name": "LycanrocMidnight",
+    "keep": false,
+    "form": "Midnight Form"
+  },
+  "Maushold-Four": {
+    "target_name": "Maushold",
+    "keep": false,
+    "form": "Family of Four"
+  },
+  "Maushold": {
+    "target_name": "Maushold",
+    "keep": false,
+    "form": "Family of Three"
+  },
+  "Meloetta": {
+    "target_name": "MeloettaAriaAria",
+    "keep": false,
+    "form": "Aria Forme"
+  },
+  "Meowstic-F": {
+    "target_name": "Meowstic",
+    "keep": false,
+    "form": "Female"
+  },
+  "Minior": {
+    "target_name": "MiniorMeteor",
+    "keep": false,
+    "form": "Meteor Form"
+  },
+  "Necrozma-Dawn-Wings": {
+    "target_name": "Necrozma",
+    "keep": true,
+    "form": "Dawn Wings Necrozma"
+  },
+  "Necrozma-Dusk-Mane": {
+    "target_name": "Necrozma",
+    "keep": true,
+    "form": "Dusk Mane Necrozma"
+  },
+  "Oinkologne": {
+    "target_name": "Oinkologne",
+    "keep": false,
+    "form": "Male"
+  },
+  "Oinkologne-F": {
+    "target_name": "Oinkologne",
+    "keep": false,
+    "form": "Female"
+  },
+  "Oricorio": {
+    "target_name": "Oricorio",
+    "keep": true,
+    "form": "Baile Style"
+  },
+  "Oricorio-Pa'u": {
+    "target_name": "Oricorio",
+    "keep": true,
+    "form": "Pa'u Style"
+  },
+  "Oricorio-Pom-Pom": {
+    "target_name": "Oricorio",
+    "keep": true,
+    "form": "Pom-Pom Style"
+  },
+  "Oricorio-Sensu": {
+    "target_name": "Oricorio",
+    "keep": true,
+    "form": "Sensu Style"
+  },
+  "Palafin": {
+    "target_name": "PalafinHero",
+    "keep": true,
+    "form": "Hero Form"
+  },
+  "Palkia-Origin": {
+    "target_name": "PalkiaOriginOrigin",
+    "keep": false,
+    "form": "Origin Form"
+  },
+  "Pecharunt": {
+    "target_name": "Pecha",
+    "keep": true,
+    "form": " "
+  },
+  "Pikachu-Alola": {
+    "target_name": "Pikachu",
+    "keep": false,
+    "form": ""
+  },
+  "Pikachu-Belle": {
+    "target_name": "Pikachu",
+    "keep": false,
+    "form": ""
+  },
+  "Pikachu-Hoenn": {
+    "target_name": "Pikachu",
+    "keep": false,
+    "form": ""
+  },
+  "Pikachu-Kalos": {
+    "target_name": "Pikachu",
+    "keep": false,
+    "form": ""
+  },
+  "Pikachu-Original": {
+    "target_name": "Pikachu",
+    "keep": false,
+    "form": ""
+  },
+  "Pikachu-Partner": {
+    "target_name": "Pikachu",
+    "keep": false,
+    "form": "Partner Pikachu"
+  },
+  "Pikachu-Sinnoh": {
+    "target_name": "Pikachu",
+    "keep": false,
+    "form": ""
+  },
+  "Pikachu-Unova": {
+    "target_name": "Pikachu",
+    "keep": false,
+    "form": ""
+  },
+  "Pikachu-World": {
+    "target_name": "Pikachu",
+    "keep": false,
+    "form": ""
+  },
+  "Poltchageist-Artisan": {
+    "target_name": "Poltchageist",
+    "keep": false,
+    "form": ""
+  },
+  "Polteageist-Antique": {
+    "target_name": "Poltchageist",
+    "keep": false,
+    "form": ""
+  },
+  "Shaymin": {
+    "target_name": "ShayminLandLand",
+    "keep": false,
+    "form": "Land Forme"
+  },
+  "Shaymin-Sky": {
+    "target_name": "Shaymin-SkySkySky",
+    "keep": false,
+    "form": "Sky Forme"
+  },
+  "Sinistcha-Masterpiece": {
+    "target_name": "Sinistcha",
+    "keep": false,
+    "form": ""
+  },
+  "Sinistea-Antique": {
+    "target_name": "Sinistcha",
+    "keep": false,
+    "form": ""
+  },
+  "Squawkabilly": {
+    "target_name": "Squawkabilly",
+    "keep": false,
+    "form": "Green Plumage"
+  },
+  "Squawkabilly-Blue": {
+    "target_name": "Squawkabilly",
+    "keep": false,
+    "form": "Blue Plumage"
+  },
+  "Squawkabilly-White": {
+    "target_name": "Squawkabilly",
+    "keep": false,
+    "form": "White Plumage"
+  },
+  "Squawkabilly-Yellow": {
+    "target_name": "Squawkabilly",
+    "keep": false,
+    "form": "Yellow Plumage"
+  },
+  "Tatsugiri": {
+    "target_name": "TatsugiriCurly",
+    "keep": false,
+    "form": "Curly Form"
+  },
+  "Tauros-Paldea-Aqua": {
+    "target_name": "Tauros",
+    "keep": true,
+    "form": "Aqua Breed"
+  },
+  "Tauros-Paldea-Blaze": {
+    "target_name": "Tauros",
+    "keep": true,
+    "form": "Blaze Breed"
+  },
+  "Tauros-Paldea-Combat": {
+    "target_name": "Tauros",
+    "keep": true,
+    "form": "Combat Breed"
+  },
+  "Thundurus": {
+    "target_name": "ThundurusIncarnateIncarnate",
+    "keep": false,
+    "form": "Incarnate Forme"
+  },
+  "Thundurus-Therian": {
+    "target_name": "ThundurusTherianTherian",
+    "keep": false,
+    "form": "Therian Forme"
+  },
+  "Tornadus": {
+    "target_name": "TornadusIncarnateIncarnate",
+    "keep": false,
+    "form": "Incarnate Forme"
+  },
+  "Tornadus-Therian": {
+    "target_name": "TornadusTherianTherian",
+    "keep": false,
+    "form": "Therian Forme"
+  },
+  "Toxtricity": {
+    "target_name": "ToxtricityAmped",
+    "keep": false,
+    "form": "Amped Form"
+  },
+  "Toxtricity-Low-Key": {
+    "target_name": "ToxtricityLow Key",
+    "keep": false,
+    "form": "Low Key Form"
+  },
+  "Vivillon-Fancy": {
+    "target_name": "Vivillon",
+    "keep": false,
+    "form": ""
+  },
+  "Vivillon-Pokeball": {
+    "target_name": "Vivillon",
+    "keep": false,
+    "form": ""
+  },
+  "Zarude-Dada": {
+    "target_name": "Zarude",
+    "keep": false,
+    "form": ""
+  },
+  "Ninetales-Alola": {
+    "target_name": "Ninetales-Alola",
+    "keep": true,
+    "form": "Alolan Ninetales"
+  },
+  "Slowking-Galar": {
+    "target_name": "Slowking-Galar",
+    "keep": true,
+    "form": "Galarian Slowking"
+  },
+  "Typhlosion-Hisui": {
+    "target_name": "Typhlosion-Hisui",
+    "keep": true,
+    "form": "Hisuian Typhlosion"
+  },
+  "DeoxysSpeedSpeed": {
+    "target_name": "DeoxysSpeedSpeed",
+    "keep": true,
+    "form": "Speed Forme"
+  },
+  "LandorusTherianTherian": {
+    "target_name": "LandorusTherianTherian",
+    "keep": true,
+    "form": "Therian Forme"
+  },
+  "Samurott-Hisui": {
+    "target_name": "Samurott-Hisui",
+    "keep": true,
+    "form": "Hisuian Samurott"
+  },
+  "EnamorusIncarnateIncarnate": {
+    "target_name": "EnamorusIncarnateIncarnate",
+    "keep": true,
+    "form": "Incarnate Forme"
+  },
+  "Rotom-Frost": {
+    "target_name": "Rotom-Frost",
+    "keep": true,
+    "form": "Frost Rotom"
+  },
+  "Zapdos-Galar": {
+    "target_name": "Zapdos-Galar",
+    "keep": true,
+    "form": "Galarian Zapdos"
+  },
+  "Rotom-Wash": {
+    "target_name": "Rotom-Wash",
+    "keep": true,
+    "form": "Wash Rotom"
+  },
+  "Indeedee": {
+    "target_name": "Indeedee",
+    "keep": true,
+    "form": "Male"
+  },
+  "Goodra-Hisui": {
+    "target_name": "Goodra-Hisui",
+    "keep": true,
+    "form": "Hisuian Goodra"
+  },
+  "Dugtrio-Alola": {
+    "target_name": "Dugtrio-Alola",
+    "keep": true,
+    "form": "Alolan Dugtrio"
+  },
+  "Weezing-Galar": {
+    "target_name": "Weezing-Galar",
+    "keep": true,
+    "form": "Galarian Weezing"
+  },
+  "DeoxysDefenseDefense": {
+    "target_name": "DeoxysDefenseDefense",
+    "keep": true,
+    "form": "Defense Forme"
+  },
+  "Zoroark-Hisui": {
+    "target_name": "Zoroark-Hisui",
+    "keep": true,
+    "form": "Hisuian Zoroark"
+  },
+  "Decidueye-Hisui": {
+    "target_name": "Decidueye-Hisui",
+    "keep": true,
+    "form": "Hisuian Decidueye"
+  },
+  "Braviary-Hisui": {
+    "target_name": "Braviary-Hisui",
+    "keep": true,
+    "form": "Hisuian Braviary"
+  },
+  "MiniorMeteor": {
+    "target_name": "MiniorMeteor",
+    "keep": true,
+    "form": "Meteor Form"
+  },
+  "TornadusTherianTherian": {
+    "target_name": "TornadusTherianTherian",
+    "keep": true,
+    "form": "Therian Forme"
+  },
+  "ThundurusIncarnateIncarnate": {
+    "target_name": "ThundurusIncarnateIncarnate",
+    "keep": true,
+    "form": "Incarnate Forme"
+  },
+  "Lilligant-Hisui": {
+    "target_name": "Lilligant-Hisui",
+    "keep": true,
+    "form": "Hisuian Lilligant"
+  },
+  "Sandslash-Alola": {
+    "target_name": "Sandslash-Alola",
+    "keep": true,
+    "form": "Alolan Sandslash"
+  },
+  "KeldeoResolute": {
+    "target_name": "KeldeoResolute",
+    "keep": true,
+    "form": "Resolute Form"
+  },
+  "Arcanine-Hisui": {
+    "target_name": "Arcanine-Hisui",
+    "keep": true,
+    "form": "Hisuian Arcanine"
+  },
+  "Slowbro-Galar": {
+    "target_name": "Slowbro-Galar",
+    "keep": true,
+    "form": "Galarian Slowbro"
+  },
+  "LycanrocDusk": {
+    "target_name": "LycanrocDusk",
+    "keep": true,
+    "form": "Dusk Form"
+  },
+  "LycanrocMidnight": {
+    "target_name": "LycanrocMidnight",
+    "keep": true,
+    "form": "Midnight Form"
+  },
+  "Electrode-Hisui": {
+    "target_name": "Electrode-Hisui",
+    "keep": true,
+    "form": "Hisuian Electrode"
+  },
+  "MeloettaAriaAria": {
+    "target_name": "MeloettaAriaAria",
+    "keep": true,
+    "form": "Aria Forme"
+  },
+  "Articuno-Galar": {
+    "target_name": "Articuno-Galar",
+    "keep": true,
+    "form": "Galarian Articuno"
+  },
+  "ThundurusTherianTherian": {
+    "target_name": "ThundurusTherianTherian",
+    "keep": true,
+    "form": "Therian Forme"
+  },
+  "Muk-Alola": {
+    "target_name": "Muk-Alola",
+    "keep": true,
+    "form": "Alolan Muk"
+  },
+  "DudunsparceTwo-Segment": {
+    "target_name": "DudunsparceTwo-Segment",
+    "keep": true,
+    "form": "Two-Segment Form"
+  },
+  "Moltres-Galar": {
+    "target_name": "Moltres-Galar",
+    "keep": true,
+    "form": "Galarian Moltres"
+  },
+  "Exeggutor-Alola": {
+    "target_name": "Exeggutor-Alola",
+    "keep": true,
+    "form": "Alolan Exeggutor"
+  },
+  "ToxtricityAmped": {
+    "target_name": "ToxtricityAmped",
+    "keep": true,
+    "form": "Amped Form"
+  },
+  "KeldeoOrdinary": {
+    "target_name": "KeldeoOrdinary",
+    "keep": true,
+    "form": "Ordinary Form"
+  },
+  "Raichu-Alola": {
+    "target_name": "Raichu-Alola",
+    "keep": true,
+    "form": "Alolan Raichu"
+  },
+  "Golem-Alola": {
+    "target_name": "Golem-Alola",
+    "keep": true,
+    "form": "Alolan Golem"
+  },
+  "Persian-Alola": {
+    "target_name": "Persian-Alola",
+    "keep": true,
+    "form": "Alolan Persian"
+  },
+  "Rotom-Heat": {
+    "target_name": "Rotom-Heat",
+    "keep": true,
+    "form": "Heat Rotom"
+  },
+  "TornadusIncarnateIncarnate": {
+    "target_name": "TornadusIncarnateIncarnate",
+    "keep": true,
+    "form": "Incarnate Forme"
+  },
+  "Avalugg-Hisui": {
+    "target_name": "Avalugg-Hisui",
+    "keep": true,
+    "form": "Hisuian Avalugg"
+  },
+  "Rotom-Mow": {
+    "target_name": "Rotom-Mow",
+    "keep": true,
+    "form": "Mow Rotom"
+  },
+  "Rotom-Fan": {
+    "target_name": "Rotom-Fan",
+    "keep": true,
+    "form": "Fan Rotom"
+  },
+  "LycanrocMidday": {
+    "target_name": "LycanrocMidday",
+    "keep": true,
+    "form": "Midday Form"
+  },
+  "EnamorusTherianTherian": {
+    "target_name": "EnamorusTherianTherian",
+    "keep": true,
+    "form": "Therian Forme"
+  },
+  "TatsugiriCurly": {
+    "target_name": "TatsugiriCurly",
+    "keep": true,
+    "form": "Curly Form"
+  },
+  "ToxtricityLow Key": {
+    "target_name": "ToxtricityLow Key",
+    "keep": true,
+    "form": "Low Key Form"
+  },
+  "BasculinBlue-Striped": {
+    "target_name": "BasculinBlue-Striped",
+    "keep": true,
+    "form": "Blue-Striped Form"
+  },
+  "ShayminLandLand": {
+    "target_name": "ShayminLandLand",
+    "keep": true,
+    "form": "Land Forme"
+  },
+  "Sneasel-Hisui": {
+    "target_name": "Sneasel-Hisui",
+    "keep": true,
+    "form": "Hisuian Sneasel"
+  },
+  "BasculinRed-Striped": {
+    "target_name": "BasculinRed-Striped",
+    "keep": true,
+    "form": "Red-Striped Form"
+  },
+  "Vulpix-Alola": {
+    "target_name": "Vulpix-Alola",
+    "keep": true,
+    "form": "Alolan Vulpix"
+  },
+  "Meowth-Alola": {
+    "target_name": "Meowth-Alola",
+    "keep": true,
+    "form": "Alolan Meowth"
+  },
+  "Qwilfish-Hisui": {
+    "target_name": "Qwilfish-Hisui",
+    "keep": true,
+    "form": "Hisuian Qwilfish"
+  },
+  "Slowpoke-Galar": {
+    "target_name": "Slowpoke-Galar",
+    "keep": true,
+    "form": "Galarian Slowpoke"
+  },
+  "Graveler-Alola": {
+    "target_name": "Graveler-Alola",
+    "keep": true,
+    "form": "Alolan Graveler"
+  },
+  "Meowth-Galar": {
+    "target_name": "Meowth-Galar",
+    "keep": true,
+    "form": "Galarian Meowth"
+  },
+  "BasculinWhite-Striped": {
+    "target_name": "BasculinWhite-Striped",
+    "keep": true,
+    "form": "White-Striped Form"
+  },
+  "Kyurem-Black": {
+    "target_name": "Kyurem-Black",
+    "keep": true,
+    "form": "Black Kyurem"
+  },
+  "Zorua-Hisui": {
+    "target_name": "Zorua-Hisui",
+    "keep": true,
+    "form": "Hisuian Zorua"
+  },
+  "Wooper-Paldea": {
+    "target_name": "Wooper-Paldea",
+    "keep": true,
+    "form": "Paldean Wooper"
+  },
+  "Voltorb-Hisui": {
+    "target_name": "Voltorb-Hisui",
+    "keep": true,
+    "form": "Hisuian Voltorb"
+  },
+  "Sliggoo-Hisui": {
+    "target_name": "Sliggoo-Hisui",
+    "keep": true,
+    "form": "Hisuian Sliggoo"
+  },
+  "Deoxys": {
+    "target_name": "Deoxys",
+    "keep": true,
+    "form": "Normal"
+  },
+  "Growlithe-Hisui": {
+    "target_name": "Growlithe-Hisui",
+    "keep": true,
+    "form": "Hisuian Growlithe"
+  },
+  "GimmighoulRoaming": {
+    "target_name": "GimmighoulRoaming",
+    "keep": true,
+    "form": "Roaming Form"
+  },
+  "Sandshrew-Alola": {
+    "target_name": "Sandshrew-Alola",
+    "keep": true,
+    "form": "Alolan Sandshrew"
+  },
+  "Geodude-Alola": {
+    "target_name": "Geodude-Alola",
+    "keep": true,
+    "form": "Alolan Geodude"
+  },
+  "LandorusIncarnateIncarnate": {
+    "target_name": "LandorusIncarnateIncarnate",
+    "keep": true,
+    "form": "Incarnate Forme"
+  },
+  "GiratinaAlteredAltered": {
+    "target_name": "GiratinaAlteredAltered",
+    "keep": true,
+    "form": "Altered Forme"
+  },
+  "Grimer-Alola": {
+    "target_name": "Grimer-Alola",
+    "keep": true,
+    "form": "Alolan Grimer"
+  },
+  "DeoxysAttackAttack": {
+    "target_name": "DeoxysAttackAttack",
+    "keep": true,
+    "form": "Attack Forme"
+  },
+  "Shaymin-SkySkySky": {
+    "target_name": "Shaymin-SkySkySky",
+    "keep": true,
+    "form": "Sky Forme"
+  },
+  "PalkiaOriginOrigin": {
+    "target_name": "PalkiaOriginOrigin",
+    "keep": true,
+    "form": "Origin Forme"
+  },
+  "Kyurem-White": {
+    "target_name": "Kyurem-White",
+    "keep": true,
+    "form": "White Kyurem"
+  },
+  "Diglett-Alola": {
+    "target_name": "Diglett-Alola",
+    "keep": true,
+    "form": "Alolan Diglett"
+  },
+  "GiratinaOriginOrigin": {
+    "target_name": "GiratinaOriginOrigin",
+    "keep": true,
+    "form": "Origin Forme"
+  },
+  "DialgaOriginOrigin": {
+    "target_name": "DialgaOriginOrigin",
+    "keep": true,
+    "form": "Origin Forme"
+  },
+  "Morpeko": {
+    "target_name": "Morpeko",
+    "keep": true,
+    "form": "Full Belly Mode"
+  },
+  "Zamazenta": {
+    "target_name": "Zamazenta",
+    "keep": true,
+    "form": "Hero of Many Battles"
+  },
+  "Zacian": {
+    "target_name": "Zacian",
+    "keep": true,
+    "form": "Hero of Many Battles"
+  },
+  "Meowstic": {
+    "target_name": "Meowstic",
+    "keep": true,
+    "form": "Male"
+  },
+  "Eiscue": {
+    "target_name": "Eiscue",
+    "keep": true,
+    "form": "Ice Face"
+  },
+  "Urshifu": {
+    "target_name": "Urshifu",
+    "keep": true,
+    "form": "Rapid Strike Style"
+  },
+  "Terapagos": {
+    "target_name": "Terapagos",
+    "keep": true,
+    "form": "Tera"
+  }
+}
