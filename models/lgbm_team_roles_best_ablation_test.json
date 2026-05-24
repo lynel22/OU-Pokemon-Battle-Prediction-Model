@@ -1,0 +1,44 @@
+{
+    "model": "LightGBM",
+    "phase": "team_roles",
+    "feature_groups": [
+        "team_roles"
+    ],
+    "representation": "team_differential",
+    "dataset": "gen9ou_final_dataset",
+    "n_features": 965,
+    "metric": "roc_auc",
+    "validation_best_score": 0.5752268471704681,
+    "best_threshold": 0.502020202020202,
+    "threshold_metric": "f1_macro",
+    "threshold_range": [
+        0.3,
+        0.7
+    ],
+    "params": {
+        "n_estimators": 744,
+        "learning_rate": 0.032211863352492355,
+        "num_leaves": 112,
+        "max_depth": 38,
+        "min_child_samples": 100,
+        "subsample": 0.682084472204476,
+        "colsample_bytree": 0.674430126672276
+    },
+    "test_metrics": {
+        "accuracy": 0.5541693745441543,
+        "f1_macro": 0.5541042941563142,
+        "roc_auc": 0.5779297788916395,
+        "log_loss": 0.6836011983517201,
+        "confusion_matrix": [
+            [
+                99764,
+                76620
+            ],
+            [
+                80476,
+                95507
+            ]
+        ]
+    },
+    "rf_train_fraction": 0.15
+}

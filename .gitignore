@@ -32,3 +32,5 @@ Thumbs.db
 
 # --- Variables de entorno (Seguridad) ---
 .env
+
+models/*.joblib

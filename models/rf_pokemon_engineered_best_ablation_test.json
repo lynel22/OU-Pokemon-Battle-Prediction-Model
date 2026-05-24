@@ -1,0 +1,42 @@
+{
+    "model": "RandomForest",
+    "phase": "pokemon_engineered",
+    "feature_groups": [
+        "pokemon_engineered"
+    ],
+    "representation": "team_differential",
+    "dataset": "gen9ou_final_dataset",
+    "n_features": 951,
+    "metric": "roc_auc",
+    "validation_best_score": 0.5532474850827048,
+    "best_threshold": 0.502020202020202,
+    "threshold_metric": "f1_macro",
+    "threshold_range": [
+        0.3,
+        0.7
+    ],
+    "params": {
+        "n_estimators": 865,
+        "max_depth": 34,
+        "min_samples_split": 8,
+        "min_samples_leaf": 2,
+        "max_features": "log2"
+    },
+    "test_metrics": {
+        "accuracy": 0.5362363671967012,
+        "f1_macro": 0.5360374546787021,
+        "roc_auc": 0.5526029985314834,
+        "log_loss": 0.6891454942129488,
+        "confusion_matrix": [
+            [
+                98124,
+                78260
+            ],
+            [
+                85155,
+                90828
+            ]
+        ]
+    },
+    "rf_train_fraction": 0.15
+}

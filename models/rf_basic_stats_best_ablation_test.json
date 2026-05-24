@@ -1,0 +1,42 @@
+{
+    "model": "RandomForest",
+    "phase": "basic_stats",
+    "feature_groups": [
+        "basic_stats"
+    ],
+    "representation": "team_differential",
+    "dataset": "gen9ou_final_dataset",
+    "n_features": 861,
+    "metric": "roc_auc",
+    "validation_best_score": 0.5530027172409998,
+    "best_threshold": 0.502020202020202,
+    "threshold_metric": "f1_macro",
+    "threshold_range": [
+        0.3,
+        0.7
+    ],
+    "params": {
+        "n_estimators": 605,
+        "max_depth": 26,
+        "min_samples_split": 13,
+        "min_samples_leaf": 3,
+        "max_features": "log2"
+    },
+    "test_metrics": {
+        "accuracy": 0.5360178450308911,
+        "f1_macro": 0.535425985591875,
+        "roc_auc": 0.5533124977134452,
+        "log_loss": 0.6905748383249806,
+        "confusion_matrix": [
+            [
+                100726,
+                75658
+            ],
+            [
+                87834,
+                88149
+            ]
+        ]
+    },
+    "rf_train_fraction": 0.15
+}
