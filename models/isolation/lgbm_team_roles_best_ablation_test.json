@@ -1,0 +1,31 @@
+{
+    "model": "LightGBM",
+    "phase": "team_roles",
+    "feature_groups": [
+        "team_roles"
+    ],
+    "representation": "isolated_dense",
+    "dataset": "gen9ou_final_dataset",
+    "n_features": 14,
+    "metric": "roc_auc",
+    "validation_best_score": 0.5415581628387393,
+    "best_threshold": 0.502020202020202,
+    "threshold_metric": "f1_macro",
+    "test_metrics": {
+        "accuracy": 0.5292862271438585,
+        "f1_macro": 0.5290865973185395,
+        "roc_auc": 0.5423593196457606,
+        "log_loss": 0.6901419174849858,
+        "confusion_matrix": [
+            [
+                96879,
+                79505
+            ],
+            [
+                86359,
+                89624
+            ]
+        ]
+    },
+    "rf_train_fraction": 0.15
+}

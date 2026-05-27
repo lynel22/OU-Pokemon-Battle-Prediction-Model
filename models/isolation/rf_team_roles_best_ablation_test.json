@@ -1,0 +1,31 @@
+{
+    "model": "RandomForest",
+    "phase": "team_roles",
+    "feature_groups": [
+        "team_roles"
+    ],
+    "representation": "isolated_dense",
+    "dataset": "gen9ou_final_dataset",
+    "n_features": 14,
+    "metric": "roc_auc",
+    "validation_best_score": 0.530479287097351,
+    "best_threshold": 0.502020202020202,
+    "threshold_metric": "f1_macro",
+    "test_metrics": {
+        "accuracy": 0.5207326452250068,
+        "f1_macro": 0.5204633005714758,
+        "roc_auc": 0.5304378858721032,
+        "log_loss": 0.6924212883875046,
+        "confusion_matrix": [
+            [
+                95920,
+                80464
+            ],
+            [
+                88414,
+                87569
+            ]
+        ]
+    },
+    "rf_train_fraction": 0.15
+}

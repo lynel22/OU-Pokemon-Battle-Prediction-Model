@@ -1,0 +1,31 @@
+{
+    "model": "LightGBM",
+    "phase": "basic_diff_stats",
+    "feature_groups": [
+        "basic_diff_stats"
+    ],
+    "representation": "isolated_dense",
+    "dataset": "gen9ou_final_dataset",
+    "n_features": 18,
+    "metric": "roc_auc",
+    "validation_best_score": 0.5454495767751978,
+    "best_threshold": 0.502020202020202,
+    "threshold_metric": "f1_macro",
+    "test_metrics": {
+        "accuracy": 0.5321837743034961,
+        "f1_macro": 0.5321371914810937,
+        "roc_auc": 0.5469111734478563,
+        "log_loss": 0.6894135349437429,
+        "confusion_matrix": [
+            [
+                95520,
+                80864
+            ],
+            [
+                83979,
+                92004
+            ]
+        ]
+    },
+    "rf_train_fraction": 0.15
+}

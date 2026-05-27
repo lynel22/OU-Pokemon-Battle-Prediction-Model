@@ -1,0 +1,31 @@
+{
+    "model": "LightGBM",
+    "phase": "pokemon_engineered",
+    "feature_groups": [
+        "pokemon_engineered"
+    ],
+    "representation": "isolated_dense",
+    "dataset": "gen9ou_final_dataset",
+    "n_features": 72,
+    "metric": "roc_auc",
+    "validation_best_score": 0.5670615888713396,
+    "best_threshold": 0.502020202020202,
+    "threshold_metric": "f1_macro",
+    "test_metrics": {
+        "accuracy": 0.5458797219943979,
+        "f1_macro": 0.5458193068789929,
+        "roc_auc": 0.5669950021199137,
+        "log_loss": 0.6857647820506656,
+        "confusion_matrix": [
+            [
+                98207,
+                78177
+            ],
+            [
+                81840,
+                94143
+            ]
+        ]
+    },
+    "rf_train_fraction": 0.15
+}
